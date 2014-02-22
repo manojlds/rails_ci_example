@@ -8,7 +8,7 @@ def create_user
   click_link 'Back'
 end
 
-describe "Users resource", :type => :feature, :js => true do
+describe "Users resource", :type => :feature do
   it "create new user" do
     visit '/users'
 
